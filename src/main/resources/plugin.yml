@@ -1,0 +1,11 @@
+name: PandEraRTP
+version: '${version}'
+main: me.pandera.ua.panderartp.PandEraRTP
+api-version: '1.20'
+authors: [ PandEra ]
+description: Random Teleport for server
+
+commands:
+  rtp:
+    description: Teleportation to random point
+    usage: /rtp
