@@ -33,13 +33,16 @@
     </header>
 <div class="searching-page1">
 <div class="searching-page-container">
-    <div class="search-box"></div>
+    <div class="search-box">
+            <p class="search-box-text1">Dokąd?</p>
+            <p class="search-box-text2">Kiedy?</p>
+            <p class="search-box-text3">Skąd?</p>
+            <p class="search-box-text4">Ile osób?</p>
+            <p class="search-box-button">SZUKAJ</p>
 </div>
 </div>
     <footer> </footer>
 </body>
-
-
 
 
 
@@ -62,7 +65,7 @@ body{
     position: fixed;
     width: 100%;
     height: 70px;;
-    background-color: #f5b041;
+    background-color: #f7be3e;
     display: flex;
     align-items: center;
     justify-content: space-between
@@ -87,7 +90,7 @@ body{
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 .header-logo:hover{
-    background-color: #f39c12;
+    background-color: #f1b62c;
 }
 .header-products-container{
     display: flex;
@@ -100,7 +103,7 @@ body{
 }
 
 .header-products:hover{
-    background-color: #f39c12;
+    background-color: #f1b62c;
     transform: scale(1.05)
 }
 .header-account{
@@ -109,14 +112,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffd643;
+    background-color: #a4d7eb;
     border-radius: 26px;
     margin-right: 10px;
     border: 2px solid #000000;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 .header-account:hover{
-    background-color: #f2cb40;
+    background-color: #57abd1;
     transform: scale(1.07)
 }
 .header-account-text{
@@ -126,23 +129,52 @@ body{
     margin-right: 4px;
     margin-bottom: 4px;
 }
-.dWZMIR {
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    flex-direction: row;
-    padding: 8px 16px 8px 8px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 4px 4px 4px 0px;
-    box-shadow: rgba(20, 20, 20, 0.1) 0px 1px 4px, rgba(61, 61, 61, 0.16) 0px 8px 18px;
-    z-index: 1;
-}
 .search-box{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 70%;
     height: 100px;
     margin-top: 200px;
-    background-color: blue;
+    background-color: #a4d7eb9f;
+    border-radius: 16px;
+    border: 2px solid rgb(99, 99, 99);
+    box-shadow: rgba(20, 20, 20, 0.1) 2px 4px 8px, rgba(61, 61, 61, 0.16) 8px 8px 18px;
+
+}
+.search-box-text1{
+    width: 220px;
+    background-color: white;
+    padding-bottom: 40px;
+    border-right: 2px solid rgb(99, 99, 99);
+    text-align: center;
+}
+.search-box-text2{
+    width: 220px;
+    background-color: white;
+    padding-bottom: 40px;
+    border-right: 2px solid rgb(99, 99, 99);
+    text-align: center;
+}
+.search-box-text3{
+    width: 220px;
+    background-color: white;
+    padding-bottom: 40px;
+    border-right: 2px solid rgb(99, 99, 99);
+    text-align: center;
+}
+.search-box-text4{
+    width: 220px;
+    background-color: white;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.search-box-button{
+    background-color: white;
+    border-radius: 4px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    text-align: center;
 }
 .searching-page1{
     display: flex;
@@ -159,6 +191,10 @@ body{
     height: 500px;
     background-image: url(https://media.coraltravel.pl/www/pl/country/65/iStock-836578962-PP-2.jpg);
 }
+
+
+
+
 
 
 
